@@ -1,6 +1,6 @@
 {
   "name": "rpa-studio",
-  "productName": "达观RPA开发平台",
+  "productName": "打包测试",
   "license": "MIT",
   "version": "11.0.0",
   "main": "main.js",
