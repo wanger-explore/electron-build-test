@@ -1,0 +1,32 @@
+{
+  "productName": "Electron Build Test",
+  "appId": "org.develar.RPA-Studio",
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": false,
+    "createStartMenuShortcut": false,
+    "displayLanguageSelector": true,
+    "installerLanguages": [
+      "en_US",
+      "zh_CN"
+    ],
+    "installerIcon": "resources/icon.ico"
+  },
+  "win": {
+    "icon": "resources/icon.ico",
+    "target": [
+      "nsis"
+    ]
+  },
+  "directories": {
+    "buildResources": "resources",
+    "output": "release"
+  },
+  "publish": {
+    "provider": "github",
+    "owner": "wanger",
+    "repo": "wanger",
+    "private": true
+  }
+}
